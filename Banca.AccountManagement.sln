@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banca.AccountManagement.Application", "Banca.AccountManagement.Application\Banca.AccountManagement.Application.csproj", "{D50906A8-174E-45D4-A719-68869C91469C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banca.AccountManagement.Api", "Banca.AccountManagement.Api\Banca.AccountManagement.Api.csproj", "{CDADCAF6-E52D-4B57-878A-335C7C03FAC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banca.AccountManagement.Domain", "Banca.AccountManagement.Domain\Banca.AccountManagement.Domain.csproj", "{9C0FD107-D5E9-4998-BED2-C2D212F7529D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banca.AccountManagement.Infrastructure", "Banca.AccountManagement.Infrastructure\Banca.AccountManagement.Infrastructure.csproj", "{C7C0F0C9-9643-4255-A9A8-31044D7CC6E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D50906A8-174E-45D4-A719-68869C91469C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50906A8-174E-45D4-A719-68869C91469C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50906A8-174E-45D4-A719-68869C91469C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50906A8-174E-45D4-A719-68869C91469C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDADCAF6-E52D-4B57-878A-335C7C03FAC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDADCAF6-E52D-4B57-878A-335C7C03FAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDADCAF6-E52D-4B57-878A-335C7C03FAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDADCAF6-E52D-4B57-878A-335C7C03FAC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0FD107-D5E9-4998-BED2-C2D212F7529D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0FD107-D5E9-4998-BED2-C2D212F7529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0FD107-D5E9-4998-BED2-C2D212F7529D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0FD107-D5E9-4998-BED2-C2D212F7529D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C0F0C9-9643-4255-A9A8-31044D7CC6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C0F0C9-9643-4255-A9A8-31044D7CC6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C0F0C9-9643-4255-A9A8-31044D7CC6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C0F0C9-9643-4255-A9A8-31044D7CC6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
