@@ -27,7 +27,7 @@ namespace Banca.AccountManagement.Api.Controllers
         }
 
         [HttpGet("GetAccountsByCustomerId/{CustomerId}")]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = "Bearer")]
         public async Task<IActionResult> GetAccountsByCustomerId(string customerId)
         {
             return Ok(await service.GetCustomerAccountDetailsByCustomerIdAsync(customerId));
