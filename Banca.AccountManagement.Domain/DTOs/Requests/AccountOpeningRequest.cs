@@ -1,3 +1,4 @@
+
 namespace Banca.AccountManagement.Domain;
 
 public class AccountOpeningRequest
@@ -27,4 +28,6 @@ public class AccountOpeningRequest
     public string? TaxId { get; set; }
     public string? Sector { get; set; }
     public string? Industry { get; set; }
+    public List<Document> Documents { get; set; }
+    public string IdentificationType { get; set; }
 }
